@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-default navbar-fixed-top templatemo-nav" role="navigation">
+  <nav class="navbar navbar-default navbar-fixed-top templatemo-nav" role="navigation">
   <div class="container">
     <div class="navbar-header">
       <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -24,6 +24,7 @@
 </template>
 <script>
 export default {
+  name: 'Navigation',
     
 }
 </script>
