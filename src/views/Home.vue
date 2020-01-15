@@ -1,20 +1,28 @@
 <template>
     <div class="app">
+        
+
         <main>
-            <TopBar/>
-            <h1>Hola</h1>
+            <Navigation/>
+            <Hero/>
+            <Pricing/>
+            <Footer/>
         </main>
     </div>
 </template>
 
 <script>
-
-import TopBar from '@/components/Navigation.vue'
-
+import Navigation from '@/components/Navigation.vue'
+import Hero from '@/components/Hero.vue'
+import Footer from '@/components/PageFooter.vue'
+import Pricing from '@/components/Pricing.vue'
 export default {
     name: 'Home',
     components: {
-        TopBar,
+        Navigation,
+        Hero,
+        Footer,
+        Pricing
     }
 }
 </script>
