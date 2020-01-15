@@ -1,5 +1,6 @@
 <template>
-    <div class="container">
+    <section id="download">
+  <div class="container">
     <div class="row">
       <div class="col-md-6 wow fadeInLeft" data-wow-delay="0.6s">
         <h2 class="text-uppercase">Download Our Software</h2>
@@ -12,4 +13,5 @@
       </div>
     </div>
   </div>
+</section>
 </template>
