@@ -6,6 +6,7 @@
             <Navigation/>
             <Hero/>
             <Pricing/>
+            
             <Footer/>
         </main>
     </div>

@@ -2,7 +2,7 @@
   <footer>
     <div class="container">
       <div class="row">
-        <div class="col-xs-1">
+        <!-- <div class="col-xs-1">
           <div class="fot-icon">a</div>
         </div>
         <div class="col-xs-1">
@@ -13,8 +13,8 @@
         </div>
         <div class="col-xs-1">
           <div class="fot-icon">a</div>
-        </div>
-        <!-- <p>Copyright © 2084 Your Company Name</p> -->
+        </div> -->
+        <p>Copyright © 2084 Your Company Name</p>
       </div>
       
     </div>
