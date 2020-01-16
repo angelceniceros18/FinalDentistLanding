@@ -8,47 +8,49 @@
       <div class="col-md-4 wow fadeIn" data-wow-delay="0.6s">
         <div class="pricing text-uppercase">
           <div class="pricing-title">
-            <h4>Basic Plan</h4>
-            <p>$11</p>
-            <small class="text-lowercase">monthly</small>
+            <h4>Plan Basico</h4>
+            <p>$4200</p>
+            <small class="text-lowercase">Anual</small>
           </div>
           <ul>
-            <li>6 GB Space</li>
-            <li>600 GB Bandwidth</li>
-            <li>60 More Themes</li>
-            <li>Lifetime Support</li>
+            <li>Base de datos local</li>
+            <li>1 Usuario</li>
+            <li>Agenda virtual</li>
+            <li>Soporte por 3 meses</li>
           </ul>
-          <button class="btn btn-primary text-uppercase">Sign up</button>
+          <button class="btn btn-primary text-uppercase">Registrate</button>
         </div>
       </div>
       <div class="col-md-4 wow fadeIn" data-wow-delay="0.6s">
         <div class="pricing active text-uppercase">
           <div class="pricing-title">
-            <h4>Business Plan</h4>
-            <p>$22</p>
-            <small class="text-lowercase">monthly</small>
+            <h4>Plan Avanzado</h4>
+            <p>$4800</p>
+            <small class="text-lowercase">Anual</small>
           </div>
           <ul>
-            <li>15 GB space</li>
-            <li>1,500 GB Bandwidth</li>
-            <li>150 More Themes</li>
-            <li>Lifetime Support</li>
+            <li>Base de datos local</li>
+            <li>2 Usuarios</li>
+            <li>Agenda virtual</li>
+            <li>Cotizador de conceptos</li>
+            <li>Soporte por 6 meses</li>
           </ul>
-          <button class="btn btn-primary text-uppercase">Sign up</button>
+          <button class="btn btn-primary text-uppercase">Registrate</button>
         </div>
       </div>
       <div class="col-md-4 wow fadeIn" data-wow-delay="0.6s">
         <div class="pricing text-uppercase">
           <div class="pricing-title">
-            <h4>Pro Plan</h4>
-            <p>$33</p>
-            <small class="text-lowercase">monthly</small>
+            <h4>Plan Pro</h4>
+            <p>$5000</p>
+            <small class="text-lowercase">Anual</small>
           </div>
           <ul>
-            <li>35 GB space</li>
-            <li>3,500 GB bandwidth</li>
-            <li>350 more themes</li>
-            <li>Lifetime Support</li>
+            <li>Base de datos en la nube</li>
+            <li>2 Usuarios</li>
+            <li>Agenda virtual</li>
+            <li>Cotizador de conceptos</li>
+            <li>Soporte todo el año</li>
           </ul>
           <button class="btn btn-primary text-uppercase">Sign Up</button>
         </div>
