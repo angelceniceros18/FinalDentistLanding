@@ -8,8 +8,8 @@
           <p>Para poder hacer uso del software comunicate con nosotros. En breves recibiras un correo con la informacion que necesitas. </p>
           <address>
             <p><i class="fa fa-map-marker"></i>36 Street Name, City Name, United States</p>
-            <p><i class="fa fa-phone"></i> 010-010-0110 or 020-020-0220</p>
-            <p><i class="fa fa-envelope-o"></i> info@company.com</p>
+            <p><i class="fa fa-phone"></i> 618 123545 or 61815252</p>
+            <p><i class="fa fa-envelope-o"></i> helpdesk@organizator.com</p>
           </address>
         </div>
         <div class="col-md-6 wow fadeInUp" data-wow-delay="0.6s">
