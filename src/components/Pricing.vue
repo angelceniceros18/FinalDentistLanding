@@ -18,7 +18,7 @@
             <li>Agenda virtual</li>
             <li>Soporte por 3 meses</li>
           </ul>
-          <button class="btn btn-primary text-uppercase">Registrate</button>
+          <button class="btn btn-primary text-uppercase" href="#contact">Registrate</button>
         </div>
       </div>
       <div class="col-md-4 wow fadeIn" data-wow-delay="0.6s">
@@ -35,7 +35,7 @@
             <li>Cotizador de conceptos</li>
             <li>Soporte por 6 meses</li>
           </ul>
-          <button class="btn btn-primary text-uppercase">Registrate</button>
+          <button class="btn btn-primary text-uppercase" ><a href="#contact">Registrate</a> </button>
         </div>
       </div>
       <div class="col-md-4 wow fadeIn" data-wow-delay="0.6s">
@@ -52,7 +52,7 @@
             <li>Cotizador de conceptos</li>
             <li>Soporte todo el año</li>
           </ul>
-          <button class="btn btn-primary text-uppercase">Sign Up</button>
+          <button class="btn btn-primary text-uppercase"><a href="#contact">Sign Up</a> </button>
         </div>
       </div>
     </div>

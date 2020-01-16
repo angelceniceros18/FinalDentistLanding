@@ -4,9 +4,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-          <h2 class="text-uppercase">Contact Us</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p>
+          <h2 class="text-uppercase">Contactanos</h2>
+          <p>Para poder hacer uso del software comunicate con nosotros. En breves recibiras un correo con la informacion que necesitas. </p>
           <address>
             <p><i class="fa fa-map-marker"></i>36 Street Name, City Name, United States</p>
             <p><i class="fa fa-phone"></i> 010-010-0110 or 020-020-0220</p>
