@@ -176,7 +176,8 @@ img
 #home
     {
     /* I dont know how to work around this in webpack */
-    background: url('../src/assets/images/home-bg.jpg') no-repeat;
+    // background: url('../src/assets/images/home-bg.jpg') no-repeat;
+    background: url('../src/assets/images/dba.jpg') no-repeat;
     background-size: cover;
     color: #fff;
     // margin-top: 70px;
