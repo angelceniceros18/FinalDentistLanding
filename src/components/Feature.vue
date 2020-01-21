@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 wow fadeInLeft" data-wow-delay="0.6s">
-        <h2 class="text-uppercase">Our Software Features</h2>
+        <h2 class="text-uppercase">Caracteristicas del software</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
           aliqua.
         </p>

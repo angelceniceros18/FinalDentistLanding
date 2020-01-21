@@ -3,10 +3,9 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 wow fadeInLeft" data-wow-delay="0.6s">
-        <h2 class="text-uppercase">Download Our Software</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p>
-        <button class="btn btn-primary text-uppercase"><i class="fa fa-download"></i> Download</button>
+        <h2 class="text-uppercase">Mira nuestro Demo</h2>
+        <p>Con organizator optimizarás tus mejor tu horario. Olvidate de dos pacientes a la misma hora. </p>
+        <button class="btn btn-primary text-uppercase"><i class="fa fa-download"></i> Descarga Ficha Tecnica</button>
       </div>
       <div class="col-md-6 wow fadeInRight" data-wow-delay="0.6s">
         <img src="../assets/images/software-img.png" class="img-responsive" alt="feature img">
