@@ -3,6 +3,7 @@ import Router from 'vue-router';
 import Home from './views/Home.vue';
 import Features from './views/Features.vue';
 
+import Comprar from './views/Comprar.vue'
 Vue.use(Router);
 
 const router = new Router({
@@ -17,6 +18,9 @@ const router = new Router({
         path: '/features',
         name: 'features',
         component: Features,
+        path:'/Comprar',
+        name:'comprar',
+        component:Comprar,
       },
     ],
   });
