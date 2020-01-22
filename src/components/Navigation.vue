@@ -11,11 +11,7 @@
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav navbar-right text-uppercase">
-        <li><a href="#home">Inicio</a></li>
-        <li><a href="#feature">Caracteristicas</a></li>
-        <li><a href="#pricing">Precios</a></li>
-        <li><a href="#download">Ver demo</a></li>
-        <li><a href="#contact">Contactanos</a></li>
+        <li v-for="(item, index) in value" :key="index" @click="function(){$router.push(item.ref)}"><a :href="item.ref">{{item.name}}</a></li>
       </ul>
     </div>
   </div>
@@ -25,6 +21,6 @@
 <script>
 export default {
   name: 'Navigation',
-    
+  props: ['value'],
 }
 </script>

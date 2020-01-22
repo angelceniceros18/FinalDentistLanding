@@ -3,7 +3,7 @@
         
 
         <main>
-            <Navigation/>
+            <Navigation v-model="navs"/>
             <Hero/>
             <Divider/>
             <Feature/>
@@ -36,7 +36,33 @@ export default {
         Hero,
         Footer,
         Pricing
-    }
+    },
+    data() {
+        return {
+            navs:[
+                {
+                    name: 'Inicio',
+                    ref: '#home'
+                },
+                {
+                    name: 'Caracteristicas',
+                    ref: '#feature'
+                },
+                {
+                    name: 'Precios',
+                    ref: '#pricing'
+                },
+                {
+                    name: 'Ver Demo',
+                    ref: '#download'
+                },
+                {
+                    name: 'Contactanos',
+                    ref: '#contact'
+                },
+            ]
+        }
+    },
 }
 </script>
 

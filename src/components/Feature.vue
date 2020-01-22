@@ -30,6 +30,7 @@
         <p><span><i class="fa fa-mobile"></i></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua.</p>
         <p><i class="fa fa-code"></i>Quis autem velis reprehenderit et quis voluptate velit esse quam.</p>
+        <p><a class="btn btn-secondary" href="/features"><u>Leer más sobre las características del producto. >>></u></a></p>
       </div>
     </div>
   </div>

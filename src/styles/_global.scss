@@ -418,6 +418,16 @@ footer
     }
 /* end footer */
 
+/*start no-a*/
+.navbar-default .nav li .no-a {
+    color: #666;
+    font-size: 13px;
+    font-weight: bold;
+    height: 70px;
+    line-height: 40px;
+}
+/*end no-a*/
+
 @media screen and ( max-width: 991px ) {
     .templatemo-box {
         margin-bottom: 30px;
