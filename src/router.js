@@ -18,6 +18,8 @@ const router = new Router({
         path: '/features',
         name: 'features',
         component: Features,
+      },
+      {
         path:'/Comprar',
         name:'comprar',
         component:Comprar,
