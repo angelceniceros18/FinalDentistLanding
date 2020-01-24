@@ -5,7 +5,7 @@
         <div class="row">
           <div class="col-md-1"></div>
           <div class="col-md-10 wow fadeIn" data-wow-delay="0.3s">
-            <h1 class="text-upper">Agenda virtual para Dentistas</h1>
+            <h1 class="text-upper">Agenda Virtual</h1>
             <p class="tm-white">
               Organizator es una agenda virtual para hacer citas de tus pacientes. Dentistas al rededor del mundo usan Organizator para
               tener un mayor control de su tiempo. Además Organizator te ayudara a administrar tus ingresos por cualquier concepto.
