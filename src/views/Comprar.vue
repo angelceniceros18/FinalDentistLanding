@@ -1,5 +1,5 @@
 <template>
-  <div class="row">
+  <div @click="toogles" class="row">
     <Navigation />
     <section id="comprar" class="comprar">
       <div class="container">
@@ -33,7 +33,15 @@
 
                 <div v-if="OpPago===1" class="detallesPago">
                   <div class="detallesPago-Names">
-                    <input type="text" placeholder="Nombre de titular de la tarjeta" />
+                    <input
+                      @click="changeState"
+                      type="text"
+                      placeholder="Nombre de titular de la tarjeta"
+                      id="inputN"
+                    />
+                    <label id="labelNombre" class="form-label hideLabel">
+                      <span>Nombre de titular de la tarjeta</span>
+                    </label>
                     <!-- <input type="text" placeholder="Apellidos de titular de la tarjeta" /> -->
                     <input type="text" placeholder="Numero de tarjeta" />
                   </div>
@@ -178,6 +186,39 @@ export default {
       document.getElementById("circle1").classList.add("hide");
       document.getElementById("circle2").classList.add("hide");
       document.getElementById("circle3").classList.add("hide");
+    },
+    changeState() {
+      const label = document.getElementById("labelNombre");
+      const input = document.getElementById("inputN");
+      this.showLabel(label);
+      this.hidePlaceholder(input);
+    },
+    showLabel(label) {
+      label.classList.remove("hideLabel");
+    },
+    hideLabel(label) {
+      label.classList.add("hideLabel");
+    },
+    hidePlaceholder(input) {
+      input.placeholder = "";
+    },
+    isInputNVacio(){
+      const input = document.getElementById("inputN");
+      if(input.value.length===0) return true
+
+      return false
+    },
+    toogles() {
+      const element = event.target;
+
+      if (!(element.id === "inputN")) {
+        if (this.isInputNVacio()) {
+          const label = document.getElementById("labelNombre");
+          const input = document.getElementById("inputN");
+          this.hideLabel(label);
+          input.placeholder = "Nombre del titular de tarjeta";
+        }
+      }
     }
   }
 };
@@ -304,9 +345,23 @@ export default {
   display: block;
   padding: 10px;
   padding-bottom: 0;
+  position: relative;
+}
+.form-label {
+  font-size: 12px;
+  font-weight: initial;
+  position: absolute;
+  color: #28a7e9;
+  top: 18%;
+  left: 3%;
+}
+.hideLabel {
+  z-index: -1 !important;
+  opacity: 0 !important;
 }
 .detallesPago-Names input {
   width: 100%;
+  /* padding: 10px; */
 }
 .detallesPago-Card {
   display: flex;
