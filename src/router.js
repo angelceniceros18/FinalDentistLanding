@@ -8,6 +8,8 @@ Vue.use(Router);
 
 const router = new Router({
     mode: 'history',
+    
+    fallback: true,
     routes: [
       {
         path: '/',
@@ -23,6 +25,10 @@ const router = new Router({
         path:'/Comprar',
         name:'comprar',
         component:Comprar,
+      },
+      {
+        path: '*', 
+        component: Home
       },
     ],
   });

@@ -3,7 +3,7 @@
         
 
         <main>
-            <Navigation v-model="navs"/>
+            <Navigation v-model="cfg"/>
             <Hero/>
             <Divider/>
             <Feature/>
@@ -39,28 +39,31 @@ export default {
     },
     data() {
         return {
-            navs:[
-                {
-                    name: 'Inicio',
-                    ref: '#home'
-                },
-                {
-                    name: 'Caracteristicas',
-                    ref: '#feature'
-                },
-                {
-                    name: 'Precios',
-                    ref: '#pricing'
-                },
-                {
-                    name: 'Ver Demo',
-                    ref: '#download'
-                },
-                {
-                    name: 'Contactanos',
-                    ref: '#contact'
-                },
-            ]
+            cfg:{
+                navs:[
+                    {
+                        name: 'Inicio',
+                        ref: '#home'
+                    },
+                    {
+                        name: 'Caracteristicas',
+                        ref: '#feature'
+                    },
+                    {
+                        name: 'Precios',
+                        ref: '#pricing'
+                    },
+                    {
+                        name: 'Ver Demo',
+                        ref: '#download'
+                    },
+                    {
+                        name: 'Contactanos',
+                        ref: '#contact'
+                    },
+                ],
+                isHome: true,
+            }
         }
     },
 }

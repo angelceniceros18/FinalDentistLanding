@@ -198,6 +198,34 @@ img
     }
 /* end home */
 
+/* start home */       
+#home-features
+    {
+    /* I dont know how to work around this in webpack */
+    // background: url('../src/assets/images/home-bg.jpg') no-repeat;
+    background: url('../src/assets/images/contact-bg.jpg') no-repeat;
+    background-size: cover;
+    color: #fff;
+    // margin-top: 70px;
+    margin-top: 0;
+    text-align: center;
+    width: 100%;
+    
+    }
+#home-features p
+    {
+        font-weight: 400;
+        font-style: italic;
+        line-height: 2em;
+    }
+#home-features img
+    {
+        display: inline-block;
+        margin-top: 30px;
+        height: 75%;
+    }
+/* end home */
+
 /* start divider */
 #divider
     {
@@ -215,6 +243,32 @@ img
         font-size: 20px;
     }
 /* end divider */
+
+/* start divider-features */
+#divider-features
+    {
+        text-align: center;
+        background: #f8f8f8;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+#divider-features .fa
+    {
+        padding: 0 0 30px;
+    }
+#divider-features .fa-stack .fa-stack-1x
+    {
+        color: white;
+    }
+#divider-features .fa-stack 
+    {
+        color: rgba(0, 0, 0, 0.4);
+    }
+#divider-features h3
+    {
+        font-size: 20px;
+    }
+/* end divider-features */
 
 /* start feature */
 #feature
@@ -428,6 +482,39 @@ footer
 }
 /*end no-a*/
 
+/*start img-raised*/
+.img-raised{
+    max-width: 100%;
+    border-radius: 1px;
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+}
+/*end img-raised*/
+
+/*start margin*/
+ .top-margin-s{
+     margin: 15px 0;
+ }
+
+ .top-margin-m{
+    margin: 35px 0;
+ }
+
+ .top-margin-l{
+    margin: 70px 0;
+ }
+/*end mairgin*/
+
+/*start side-description*/
+.side-description{
+    font-size: 15px;
+    line-height: 5px;
+}
+
+.side-description span{
+    margin-right: 5px;
+}
+/*end side-description*/
+
 @media screen and ( max-width: 991px ) {
     .templatemo-box {
         margin-bottom: 30px;
@@ -466,3 +553,7 @@ footer
         }
 }
 /* end media 360 */
+
+/*start image*/
+
+/*end image*/

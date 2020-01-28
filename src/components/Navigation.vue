@@ -9,9 +9,14 @@
 					</button>
       <a href="#" class="navbar-brand">Organizator</a>
     </div>
-    <div class="collapse navbar-collapse">
+    <div class="collapse navbar-collapse"  v-if="value.isHome">
       <ul class="nav navbar-nav navbar-right text-uppercase">
-        <li v-for="(item, index) in value" :key="index" @click="function(){$router.push(item.ref)}"><a :href="item.ref">{{item.name}}</a></li>
+        <li v-for="(item, index) in value.navs" :key="index"><a :href="item.ref">{{item.name}}</a></li>
+      </ul>
+    </div>
+    <div class="collapse navbar-collapse"  v-else>
+      <ul class="nav navbar-nav navbar-right text-uppercase">
+        <li v-for="(item, index) in value.navs" :key="index" @click="function(){$router.push(item.ref)}"><a :href="item.ref">{{item.name}}</a></li>
       </ul>
     </div>
   </div>
